@@ -4,31 +4,47 @@ button
     text-align: center;
     font-size: 16px;
     border-radius: 10px;
+    border-style: none;
 }
 
 .Danger
 {
 
-    background-color:lightgray;
+    background-color:ghostwhite;
     color: red;
+    border-style: groove;
+    border-color:white;
 }
 
 .Dashed
 {
     background-color: white;
     border-style: dashed;
+    color: lightslategray;
 }
 
 .Default
 {
 background-color: white;
+border-style: groove;
+border-color: white;
 
 }
 
 .Primary
 {
-    background-color:blue;
+    background-color:dodgerblue;
     border: white;
     color: white;
     
+}
+
+.large
+{
+    padding: 20px 40px;
+}
+
+.small
+{
+    padding: 10px 15px;
 }
