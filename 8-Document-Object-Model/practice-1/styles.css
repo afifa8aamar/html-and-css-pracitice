@@ -1,0 +1,32 @@
+*
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1
+{
+    margin: auto;
+}
+div
+{
+    border: 1px groove #e3e6ea;
+    height: 350px;
+     width: 200px;
+     display: inline-block;
+     
+     
+}
+div :lang()
+{
+    padding-right: 0px;
+}
+
+p{
+margin: auto;
+}
+a
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
