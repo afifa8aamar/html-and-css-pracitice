@@ -1,0 +1,28 @@
+.notification {
+    
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    height: 160px;
+    width: 300px;
+}
+
+.main {  
+    height: 500px;
+    width: 800px;
+}
+
+.title {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+img
+{
+    height: 500px;
+    width: 800px;
+}
