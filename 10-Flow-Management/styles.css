@@ -1,0 +1,67 @@
+div 
+{
+    border: 2px solid black;
+    background: black;
+}
+
+body{
+    width: 210px;
+}
+
+.col-1
+{
+    background: white;  
+    width: 52px;
+    height: 50px;
+    float: left;
+}
+
+.col-2
+{
+    float: right;
+    background: red;
+    width: 150px;
+    height: 150px;
+
+}
+
+.col-3
+{
+    height: 150px;
+    background: white;
+    width: 52px;
+}
+
+.col-4
+{
+clear: both;
+width: 52px;
+background: blue;
+float: left;
+height: 63px;
+}
+
+.col-5
+{
+    background: white;
+    width: 120px;
+    height: 63px;
+    float: left;
+    
+}
+
+.col-6
+{
+    float: right;
+    height: 25px;
+    width: 26px;
+    background: white;
+}
+
+.col-7
+{
+    float: right;
+    width: 26px;
+    background: yellow;
+    height: 34px;
+}
