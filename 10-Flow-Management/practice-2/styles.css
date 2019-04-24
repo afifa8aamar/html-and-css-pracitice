@@ -1,0 +1,83 @@
+div{
+    border: 2px solid black;
+}
+body
+{
+width: 108px;
+}
+
+.col-1
+{
+    background: red;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.col-2
+{
+    background: beige;
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+.col-3
+{
+    float: left;
+    clear: both;
+    width: 50px;
+    height: 30px;
+    background: beige;
+}
+
+.col-4
+{
+float: right;
+width: 50px;
+height: 30px;
+background: beige;
+}
+.col-5
+{
+    clear: both;
+    float: left;
+    width: 10px;
+    height: 50px;
+    background: yellow;
+}
+
+.col-6
+{
+    float: left;
+    width: 36px;
+    height: 50px;
+    background: beige;
+}
+
+.col-7
+{
+    float: left;
+    background: purple;
+    width: 30px;
+    height: 32px;
+}
+
+.col-8
+{
+    float: left;
+    margin-top: 36px;
+    margin-left: -34px;
+    height: 14px;
+    width: 30px;
+    background: beige;
+}
+
+.col-9
+{
+    background: beige;
+    float: right;
+    width: 16px;
+    height: 50px;
+}
+
