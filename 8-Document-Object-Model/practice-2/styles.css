@@ -1,68 +1,93 @@
-div 
+.upperDiv
 {
-    margin: auto;
-    border : 2px solid #f4f6f9;
-    height: 100px;
-    width: 100 px !important;
-    background-origin: padding-box;
+    border: 2px solid grey;
+    padding: 5px;
+    width: 400px;
+}
+
+.upperDiv img
+{
+    width: 12px;
+    height: 12px;
+}
+
+.icons img
+{
+    width: 15px;
+    height: 15px;
+}
+
+.downDiv
+{
+    width: 390px;
+    border: 2px solid grey;
+    padding: 10px;
+    padding-bottom: 20px;
+
+}
+
+.downDiv div span{
     display: block;
+    
 }
 
-#profilepics p{
-display: inline-block;
-width: 100px;
-height: 100px;
-}
-#profile
-{
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-}
-
-#profilepics
-{
-    margin: auto;
-    height: 40px;
-    border: none;
-}
-
-.file
-{
-    height: 2px;
-}
 .msg
 {
+    padding: 2px;
     font-size: 20px;
-    height: 10px;
 }
 
-#icon
+#img
 {
-    height: 20px;
-    width: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 3px;
 }
+
+.profile
+{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.info
+{
+    float: left;
+    margin-left: 15px;
+    
+}
+
+.hist
+{
+    color: gray;
+    font-size: 12px;
+}
+
 .icons
 {
-    height: 20px;
-    border: none;
-    margin-top: 50px;
+    clear: both;
+    padding: 5px;
 }
-.bottom
-{
-    padding-bottom: 100px;
+
+#icon{
+    float: left;
+    padding-right: 10px;
 }
 
 #lsticon
 {
-    padding-left: 50px;
-    height: 20px;
-    width: 20px;
+    float: right;
+    margin-right: 20px;
 }
 
 #num
 {
-    
-    margin-bottom: 10px;
-   display: inline-block;
+    float: right;
+    margin-right: -40px;
+    font-size: 15px;
+    color: gray;
 }
+
