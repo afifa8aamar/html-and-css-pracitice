@@ -228,7 +228,7 @@ body
 .col-7
 {
     background: black;
-    height: 65px;;
+    height: 65px;
     
 }
 
@@ -237,4 +237,44 @@ body
     background: white;
     height: 34px;
     border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.col-9
+{
+    background: lightblue;
+    height: 65px;
+    border-right: 1px solid black;
+}
+
+.col-10
+{
+    background: lightyellow;
+    height: 50px;
+    width: 30px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.col-11
+{
+    background: yellow;
+    height: 20px;
+    width: 30px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.col-12
+{
+    background: white;
+    border-right: 1px solid black;
+}
+
+.col-13
+{
+    background: lightyellow;
+    height: 27px;
+    width: 50px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
 }
