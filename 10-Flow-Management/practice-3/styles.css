@@ -1,0 +1,240 @@
+body
+{
+    width: 286px;
+    height: 286px;
+    bor der: 2px solid red;
+}
+
+.mrow-1 {
+    float: left;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.mrow-2 {
+    float: left;
+    height: 100px;
+    width: 80px;
+    border-bottom: 3px solid black;
+}
+
+.mrow-3
+{
+    float: left;
+    height: 100px;
+    width: 80px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.mrow-4
+{
+    float: left;
+    height: 100px;
+    width: 20px;
+    border-bottom: 3px solid black;
+}
+
+.mrow-5
+{
+    clear: both;
+    float: left;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.mrow-6
+{
+    float: left;
+    height: 100px;
+    width: 80px;
+    border-right: 3px solid black;
+}
+
+.mrow-7
+{
+    float: left;
+    height: 50px;
+    width: 57px;
+    border-bottom: 3px solid black;
+    
+}
+
+.mrow-8
+{
+    border-right: 3px solid black;
+    float: left;
+    height: 50px;
+    width: 20px;
+    border-bottom: 3px solid black;
+}
+
+.mrow-9
+{
+    float: left;
+    height: 50px;
+    width: 20px;
+    border-bottom: 3px solid black;
+}
+
+.mrow-10
+{
+    clear: both;
+    float: left;
+    height: 80px;
+    width: 100px;
+    border-right: 3px solid black;
+    
+}
+
+.mrow-11
+{
+    float: left;
+    height: 80px;
+    width: 80px;
+    border-right: 3px solid black;
+}
+
+.mrow-12
+{
+    float: right;
+    width: 100px;
+    height: 130px;
+    margin-top: -50px;
+}
+
+.mrow-1 .row-1
+{
+    float: left;
+}
+.mrow-1 .row-2
+{
+    float: left;
+}
+.mrow-1 .row-3
+{
+    float: left;
+}
+
+.mrow-3 .row-1
+{
+    float: left;
+}
+.mrow-3 .row-2
+{
+    float: left;
+}
+
+.mrow-3 .row-1 .r1
+{
+    float: left;
+}
+.mrow-3 .row-1 .r2
+{
+    float: left;
+}
+.mrow-3 .row-1 .r3
+{
+    clear: both;
+}
+
+.mrow-6 .row-1{
+    float: left;
+}
+.mrow-6 .row-2{
+    float: left;
+}
+
+.mrow-10 .row-1{
+    float: left;
+}
+
+.mrow-10 .row-2{
+    float: left;
+}
+
+.mrow-10 .row-3{
+    float: left;
+}
+
+.mrow-12 .row-1{
+    float: left;
+}
+
+.mrow-12 .row-2{
+    float: left;
+}
+
+
+.mrow-12 .row-3{
+    clear: both;
+}
+
+.col-1
+{
+    background: white;
+    height: 70px;
+    width: 30px;
+    border-bottom: 1px solid black;
+    border-right: 3px solid black;
+}
+
+.col-2
+{
+    background: wheat;
+    height: 30px;
+    width: 30px;
+    border-right: 3px solid black;
+}
+
+.col-3
+{
+    background: wheat;
+    height: 34px;
+    width: 30px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.col-4
+{
+    background: wheat;
+    height: 34px;
+    width: 30px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.col-5
+{
+    background: white;
+    height: 30px;
+    width: 30px;
+    border-right: 1px solid black;
+    
+}
+
+.col-6
+{
+
+    background: wheat;
+    height: 34px;
+    border-bottom: 1px solid black;
+}
+.col-7
+{
+    background: black;
+    height: 65px;;
+    
+}
+
+.col-8
+{
+    background: white;
+    height: 34px;
+    border-bottom: 1px solid black;
+}
