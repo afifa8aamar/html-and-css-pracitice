@@ -1,8 +1,10 @@
+
+
 body
 {
     width: 286px;
     height: 286px;
-    bor der: 2px solid red;
+    
 }
 
 .mrow-1 {
@@ -50,7 +52,7 @@ body
 .mrow-6
 {
     float: left;
-    height: 100px;
+    height: 103px;
     width: 80px;
     border-right: 3px solid black;
 }
@@ -59,7 +61,7 @@ body
 {
     float: left;
     height: 50px;
-    width: 57px;
+    width: 51px;
     border-bottom: 3px solid black;
     
 }
@@ -69,7 +71,7 @@ body
     border-right: 3px solid black;
     float: left;
     height: 50px;
-    width: 20px;
+    width: 26px;
     border-bottom: 3px solid black;
 }
 
@@ -203,7 +205,7 @@ body
 .col-4
 {
     background: wheat;
-    height: 34px;
+    height: 35px;
     width: 30px;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
@@ -261,13 +263,15 @@ body
     background: yellow;
     height: 20px;
     width: 30px;
-    border-bottom: 1px solid black;
+    
     border-right: 1px solid black;
 }
 .col-12
 {
     background: white;
     border-right: 1px solid black;
+    height: 71px;
+    width: 19px;
 }
 
 .col-13
@@ -277,4 +281,162 @@ body
     width: 50px;
     border-right: 1px solid black;
     border-top: 1px solid black;
+}
+
+.col-14
+{
+    background: #a03131;
+    height: 100px;
+
+}
+
+.col-15
+{
+    background: wheat;
+    height: 100px;
+}
+
+.col-16
+{
+    background: wheat;
+    border-bottom: 1px solid black;
+    height: 33px;
+}
+
+.col-17
+{
+    background: lightblue;
+    border-bottom: 1px solid black;
+    height: 33px;
+}
+
+.col-18
+{
+    background: black;
+    height: 33px;
+   
+}
+
+.col-19
+{
+    background: wheat;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 102px;
+    width: 40px;
+}
+
+.col-20
+{
+    background: wheat;
+    border-bottom: 1px solid black;
+    height: 20px;
+    width: 39px;
+}
+
+.col-21
+{
+    background: yellow;
+    height: 81px;
+    width: 39px;
+    border-bottom: 1px solid black;
+}
+
+.col-22
+{
+    background: black;
+    width: 50px;
+    height: 25px;
+    border-right: 1px solid black;
+}
+.col-23
+{
+    background: wheat;
+    width: 50px;
+    height: 25px;
+    border-right: 1px solid black;
+}
+
+
+.col-24
+{
+    background: black; 
+    height: 25px;
+    
+}
+.col-25
+{
+    background: wheat;
+    height: 25px;
+}
+.col-26
+{
+    background: white;
+    height: 24px;
+    border-bottom: 1px solid black ;
+}
+.col-27
+{
+    background: wheat;
+    height: 25px;
+}
+.col-28
+{
+    height: 80px;
+    background: white;
+    border-right: 3px solid black;
+    width: 30px;
+}
+.col-29
+{
+    height: 20px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black ;
+    width: 36px;
+    background: #a03131;
+}
+.col-30{
+    height: 59px;
+    background: yellow;
+    border-right: 1px solid black;
+}
+
+.col-31
+{
+    background: wheat;
+    height: 80px;
+    width: 30px;
+}
+
+.col-32{
+background: white;
+height: 80px;
+}
+
+.col-321
+{
+    background: #a03131;
+    height: 80px;
+    border-bottom: 1px solid black ;
+    border-right: 1px solid black;
+    width: 36px;
+}
+
+.col-33{
+    background: yellow;
+    width: 63px;
+    height: 40px;
+    border-bottom: 3px solid black ;
+}
+.col-34
+{
+    background: lightblue;
+    height: 37px;
+    border-bottom: 1px solid black ;
+
+}
+.col-35
+{
+    background: wheat;
+    height: 49px;
 }
