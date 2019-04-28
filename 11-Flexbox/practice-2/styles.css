@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+.sec-1, .sec-2
+{
+    width: 50%;
+}
+
+
+.sec-1 .row-1, .sec-1 .row-3, .sec-2 .row-1, .sec-2 .row-3
+{
+    height: 40%;
+}
+.sec-1 .row-2,.sec-2 .row-2
+{
+    height: 20%;
+}
+.sec-1 .row-1
+{
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    background: red;
+}
+.sec-1 .row-2
+{
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    background: beige;
+}
+.sec-1 .row-3
+{
+    display: flex;
+    flex-direction: row;
+}
+.sec-1 .row-3 .col-1
+{
+    width: 20%;
+    background: yellow;
+    border-right: 3px solid black;
+}
+.sec-1 .row-3 .col-2
+{
+    width: 80%;
+    background: beige;
+    border-right: 3px solid black;
+}
+.sec-2 .row-1 
+{
+    background: beige;
+    border-bottom: 3px solid black;
+}
+.sec-2 .row-2
+{
+    background: beige;
+    border-bottom: 3px solid black;
+}
+.sec-2 .row-3 
+{
+    display: flex;
+    flex-direction: row;
+    background: beige;
+   
+}
+.sec-2 .row-3 .col-1 
+{
+    width: 60%;
+    background: beige;
+   
+}
+.sec-2 .row-3 .col-2
+{
+    width: 40%;
+    background: beige;
+   
+}
+.sec-2 .row-3 .col-1 .row-1
+{
+    height: 80%;
+    background: purple;
+    border-right: 3px solid black;
+   
+}
+.sec-2 .row-3 .col-1 .row-2
+{
+    height: 20%;
+    background: beige;
+    border-right: 3px solid black;
+    border-bottom: none;
+}
