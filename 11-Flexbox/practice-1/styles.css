@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+div{
+    border: 3px solid black;
+    height: 10px;
+}
+
+.col-1{
+    display : flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.col-2
+{
+    display : flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.col-1 .row-1
+{
+    height : 20%;
+}
+.col-1 .row-2
+{
+    height : 50%;
+}
+.col-1 .row-3
+{
+    height : 30%;
+    background: blue;
+}
+
+.col-2 .row-1
+{
+    height : 70%;
+    background: red;
+}
+
+.col-2 .row-2 
+{
+    height : 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.col-2 .row-2 .sec-1
+{
+    height : 100%;
+    width: 100%;
+    
+    
+}
+.col-2 .row-2 .sec-2
+{
+    height : 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    
+}
+
+.col-2 .row-2 .sec-2 .cell-1
+{
+    height : 100%;
+    background: white;
+    
+}
+.col-2 .row-2 .sec-2 .cell-2
+{
+    height : 100%;
+    background: yellow;
+    
+}
