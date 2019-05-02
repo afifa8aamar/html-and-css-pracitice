@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 1168px;
+    margin: auto;
+}
+
+article .container{
+    display: block;
+    background-color: #ECF0F1;
+    width: 1170px;
+    height: 800px;
+    margin-bottom: 43.4px;
+}
+article header{
+    border-bottom: 1px solid #707070;
+    
+}
+
+article header h1{
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #2C3E50;
+}
+article header p {
+    margin-bottom: 28.6px;
+}
+
+article header p span {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A1B1BC;
+    margin-right: 5px;
+    
+}
+article header p span:last-child {
+margin-right: 0px;
+}
+article header p span::after{
+    display: inline-block;
+    content: '';
+    background-color: #A1B1BC;
+    width: 1px;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+article header p span:last-child::after{
+    display: none;
+}
+
+article .text-1{
+    color : #A1B1BC;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 26.3px;
+}
+article .comment{
+    border: 1px solid #707070;
+    border-left: 3px solid #21C2F8;
+    margin-left: 70px;
+    padding-right: 186px;
+}
+article .comment h3{
+    
+    margin-top: 39.3px;
+    color : #A1B1BC;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+article .comment span {
+    color : #A1B1BC;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+article .text-2
+{
+    color : #A1B1BC;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 25.1px;
+}
+article .text-2::first-letter{
+    border: 1px solid black ;
+    font-size: 25px;
+}
+
+article .text-3 h2 {
+    color : #34495E;
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-bottom: 14.4px;
+}
+article .text-3 span {
+    color : #A1B1BC;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
