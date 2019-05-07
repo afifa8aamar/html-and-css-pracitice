@@ -6,6 +6,64 @@
 }
 body {
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    
+    -webkit-font-smoothing: antialiased;   
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    margin: auto;
+}
+section .head 
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 42.1px;
+}
+section .head h1{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+section .head span{
+    font-family: 'Roboto';
+    font-size: 16px;
+    right: 0px;
+}
+section > div {
+    margin-bottom: 24px;
+    border: 1px solid #ECF0F1;
+    display: flex;
+    flex-direction: row;
+}
+section > div .content{
+    background-color: #A1B1BC;
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+section .com-1 {
+    margin-bottom: 24px;
+}
+section .com-1 .content h3{
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+section .com-1 .content span {
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+section .com-1 .content div {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 14px;
+}
+section .com-1 .content .button{
+    background-color: #2C3E50;
+    border: 1px solid #707070;
+}
+section .com-2 {
+    margin-bottom: 24px;
+    font-family: 'Roboto Black';
+    font-size: 14px;
 }
